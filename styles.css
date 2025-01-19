@@ -1,30 +1,49 @@
-/*  your css code here. If applicable */
         body {
             background-color: rgb(204, 204, 204);
             font-family: Arial, sans-serif;
-        }
-        h1, h2 {
             text-align: center;
+        }
+        h1 {
+            font-weight: bold;
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            
+        }
+        .playlist {
+            padding: 10px;
+            border: 2px solid black;
+			background: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         ul {
             padding: 0;
-            text-align: center;
+            list-style-type: none;
         }
         li {
-            list-style-type: none;
             margin: 5px 0;
         }
         a {
-            text-decoration-line: none;
+            text-decoration: none;
             font-size: 18px;
             color: black;
         }
         .player_one, .player_two {
-            display: block;
             margin: 20px auto;
             background-color: rgb(255, 255, 255);
             padding: 10px;
             border-radius: 10px;
             text-align: center;
-            width: fit-content;
+            width: 100%;
+            border: 2px solid black;
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+        }
+        audio {
+            width: 100%;
         }
